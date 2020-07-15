@@ -1,0 +1,17 @@
+BEGIN;
+
+INSERT INTO blogful_articles
+    (title, content)
+VALUES
+   ('EXAMPLE 1',    'EXAMPLE CONTENT 1'),
+   ('EXAMPLE 2',    'EXAMPLE CONTENT 2'),
+   ('EXAMPLE 3',    'EXAMPLE CONTENT 3'),
+   ('EXAMPLE 4',    'EXAMPLE CONTENT 4'),
+   ('EXAMPLE 5',    'EXAMPLE CONTENT 5'),
+   ('EXAMPLE 6',    'EXAMPLE CONTENT 6'),
+   ('EXAMPLE 7',    'EXAMPLE CONTENT 7'),
+   ('EXAMPLE 8',    'EXAMPLE CONTENT 8'),
+   ('EXAMPLE 9',    'EXAMPLE CONTENT 9'),
+   ('EXAMPLE 10',   'EXAMPLE CONTENT 10');
+
+COMMIT;
