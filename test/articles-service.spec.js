@@ -128,7 +128,6 @@ describe('Articles service object', function() {
           });
         });
     })
-
   });
 
   context('Given \'blogful_articles\' has no data', () => {
