@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable strict */
 
-//const { expect } = require('chai');
+
 const ArticlesService = require('../src/articles-service.js');
 const knex = require('knex');
 const { expect } = require('chai');

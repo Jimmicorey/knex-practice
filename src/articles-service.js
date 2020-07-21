@@ -4,7 +4,9 @@ const ArticlesService = {
   getAllArticles(knex) {
     //return 'all the articles!!'; //<---to test that it works
     //return Promise.resolve('all the articles!!');
-    return knex.select('*').from('blogful_articles');
+    return knex
+      .select('*')
+      .from('blogful_articles');
   },
   insertArticle(knex, newArticle) {
     return knex
@@ -16,7 +18,11 @@ const ArticlesService = {
       });
   },
   getById(knex, id) {
-    return knex.from('blogful_articles').select('*').where('id', id).first();
+    return knex
+      .from('blogful_articles')
+      .select('*')
+      .where('id', id)
+      .first();
   },
   deleteArticle(knex, id) {
     return knex('blogful_articles')
